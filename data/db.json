@@ -1,0 +1,94 @@
+{
+    "projects":[
+        {
+            "title": "Calculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Holiday_destination",
+            "img": "",
+            "desc": "This is a holiday destination website with a contact page made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Rainbow",
+            "img": "",
+            "desc": "This is a rainbow made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Website",
+            "img": "",
+            "desc": "This is a website made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        },
+        {
+            "title": "Calcculator",
+            "img": "",
+            "desc": "This is a calculator made using HTML and CSS",
+            "link": [{
+                    "github": "",
+                    "live": ""
+                }]
+        }
+    ]
+}

@@ -17,12 +17,18 @@ export default {
 
 <style>
 nav {
+position: fixed;
+left: 0px;
+top: 0px;
+width: 100vw;
   padding: 30px;
+  background-color: black;
 }
 
 nav a {
   font-weight: bold;
-  color: #2c3e50;
+  color: #3b5772;
+  padding: 2%;
 }
 
 nav a.router-link-exact-active {

@@ -1,11 +1,12 @@
 <template>
-  <div class="container-fluid">
+  <div id="about" class="container-fluid">
     <div class="about">
-      <h1 id="aboutHeadig">About</h1>
+      <h1 class="text-decoration-underline display-1">About...</h1>
     </div>
-    <div class="container">
+    <br />
+    <div id="details" class="container-fluid">
       <div class="row">
-        <div class="col-4">
+        <div class="col-3">
           <img id="image" src="../assets/aboutImage.png" alt="" />
         </div>
         <div class="col-8">
@@ -23,39 +24,43 @@
             <br />
             <h2>hobbies...</h2>
             <p>
-              I enjoy playing soccer, whether it's eleven a side or five a side, listening to music, mostly rap however I do enjoy listing to other genres as well, reading
-              manga, watching anime, and going out with friends, I esecially enjoy spending time with those that I am close with.
+              I enjoy playing soccer, whether it's eleven a side or five a side,
+              listening to music, mostly rap however I do enjoy listing to other
+              genres as well, reading manga, watching anime, and going out with
+              friends, I esecially enjoy spending time with those that I am
+              close with.
             </p>
           </div>
-        <div class="container">
-          <h2>other...</h2>
-          <div class="row">
-            <div class="col">Date of Birth</div>
-            <div class="col">:</div>
-            <div class="col">02-01-07</div>
-          </div>
-          <div class="row">
-            <div class="col">Phone number</div>
-            <div class="col">:</div>
-            <div class="col">+27 658 057 987</div>
-          </div>
-          <div class="row">
-            <div class="col">Location</div>
-            <div class="col">:</div>
-            <div class="col">Cape Town</div>
-          </div>
-          <div class="row">
-            <h2>accounts...</h2>
-            <div class="col">
-              <a href="https://github.com/DanielJamesF">Github</a>
+          <div class="container">
+            <h2>other...</h2>
+            <div class="row">
+              <div class="col">Date Of Birth</div>
+              <div class="col">:</div>
+              <div class="col">02-01-07</div>
             </div>
-            <div class="col">
-              <a href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"
-                >Linkedin</a
-              >
+            <div class="row">
+              <div class="col">Phone number</div>
+              <div class="col">:</div>
+              <div class="col">+27 658 057 987</div>
+            </div>
+            <div class="row">
+              <div class="col">Location</div>
+              <div class="col">:</div>
+              <div class="col">Cape Town</div>
+            </div>
+            <div class="row">
+              <h2>accounts...</h2>
+              <div class="col">
+                <a href="https://github.com/DanielJamesF">Github</a>
+              </div>
+              <div class="col">
+                <a
+                  href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"
+                  >Linkedin</a
+                >
+              </div>
             </div>
           </div>
-        </div>
         </div>
       </div>
     </div>
@@ -66,9 +71,20 @@
 export default {};
 </script>
 
-<style>
-#image{
-  
+<style scoped>
+#about {
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+#image {
   max-width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+#details {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 </style>

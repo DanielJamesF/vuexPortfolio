@@ -1,7 +1,7 @@
 <template>
-  <div class="home conatiner-fluid">
+  <div id="home" class="container-fluid">
     <div id="box">
-       <div class="row">
+      <div class="row">
         <div class="col-2"></div>
         <div id="col1" class="col">
           <h1 class="h1">Hi I am Daniel Fredericks</h1>
@@ -16,38 +16,36 @@
         <div class="col-2"></div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
-
-  components: {
-
-  }
-}
+  components: {},
+};
 </script>
 
 <style scoped>
-.home{
-  height: 85vh;
-  /* min-height: 100vh; */
-  background-color: rgb(0, 0, 0);
+#home {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  height: 100vh;
+  background-image: url("../assets/mountain.jpg");
+  background-size: cover;
 }
-#box{
+#box {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: white;
 }
-#col1{
+ #col1 {
   border-top: solid white;
-  border-left: solid white;
   border-right: solid white;
-
+  border-left: solid white
 }
-#col2{
+#col2 {
   border-bottom: solid white;
 }
 </style>
