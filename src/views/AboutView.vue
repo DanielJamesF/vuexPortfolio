@@ -74,7 +74,7 @@ export default {};
 
 <style scoped>
 #about {
-  padding-top: 8%;
+  padding-top: 10%;
   padding-bottom: 8%;
 }
 #image {
