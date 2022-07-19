@@ -27,11 +27,10 @@ export default {
 
 <style scoped>
 #home {
-  padding-top: 8%;
-  padding-bottom: 8%;
   height: 100vh;
   background-image: url("../assets/mountain.jpg");
   background-size: cover;
+  background-position: center;
 }
 #box {
   height: 100%;

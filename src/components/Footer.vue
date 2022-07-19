@@ -17,9 +17,9 @@ export default {
     left: 0px;
   bottom: 0px;
   position: fixed;
-  padding: 30px;
+  height: 7%;
   width: 100vw;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(27, 26, 26);
   color: #3b5772;
 }
 </style>

@@ -11,24 +11,22 @@
 
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
 }
 </script>
 
 <style>
 nav {
-position: fixed;
-left: 0px;
-top: 0px;
-width: 100vw;
-  padding: 30px;
-  background-color: black;
+  position: fixed;
+  left: 0%;
+  width: 100%;
+  padding: 27px;
+  background-color: rgb(27, 26, 26);
 }
 
 nav a {
   font-weight: bold;
-  color: #3b5772;
-  padding: 2%;
+  color: #2c3e50;
 }
 
 nav a.router-link-exact-active {

@@ -4,62 +4,63 @@
       <h1 class="text-decoration-underline display-1">About...</h1>
     </div>
     <br />
-    <div id="details" class="container-fluid">
-      <div class="row">
-        <div class="col-3">
-          <img id="image" src="../assets/aboutImage.png" alt="" />
+    <div id="row" class="row justify-content-center">
+      <div class="col-7">
+        <div>
+          <img
+            id="image"
+            class="img-fluid rounded-circle"
+            src="../assets/aboutImage.png"
+            alt="daniel"
+          />
         </div>
-        <div class="col-8">
-          <div>
-            <h2>bio...</h2>
+
+        <div>
+          <h2>bio...</h2>
+        </div>
+        <div>
+          <p>
+            I am a student at life Choices Academy where I am studying coding in
+            order to become a Web Developer in the future. My passsion for
+            coding stems from my love of technology and anything related to it.
+            I am a hard worker and am able to work well in groups as I believe
+            that I am able to get along with people pretty well.
+          </p>
+          <br />
+          <h2>hobbies...</h2>
+          <p>
+            I enjoy playing soccer, whether it's eleven a side or five a side,
+            listening to music, mostly rap however I do enjoy listing to other
+            genres as well, reading manga, watching anime, and going out with
+            friends, I esecially enjoy spending time with those that I am close
+            with.
+          </p>
+        </div>
+        <h2>other...</h2>
+        <div class="row">
+          <div class="col">Date Of Birth</div>
+          <div class="col">:</div>
+          <div class="col">02-01-07</div>
+        </div>
+        <div class="row">
+          <div class="col">Phone number</div>
+          <div class="col">:</div>
+          <div class="col">+27 658 057 987</div>
+        </div>
+        <div class="row">
+          <div class="col">Location</div>
+          <div class="col">:</div>
+          <div class="col">Cape Town</div>
+        </div>
+        <div class="row">
+          <h2>accounts...</h2>
+          <div class="col">
+            <a href="https://github.com/DanielJamesF">Github</a>
           </div>
-          <div>
-            <p>
-              I am a student at life Choices Academy where I am studying coding
-              in order to become a Web Developer in the future. My passsion for
-              coding stems from my love of technology and anything related to
-              it. I am a hard worker and am able to work well in groups as I
-              believe that I am able to get along with people pretty well.
-            </p>
-            <br />
-            <h2>hobbies...</h2>
-            <p>
-              I enjoy playing soccer, whether it's eleven a side or five a side,
-              listening to music, mostly rap however I do enjoy listing to other
-              genres as well, reading manga, watching anime, and going out with
-              friends, I esecially enjoy spending time with those that I am
-              close with.
-            </p>
-          </div>
-          <div class="container">
-            <h2>other...</h2>
-            <div class="row">
-              <div class="col">Date Of Birth</div>
-              <div class="col">:</div>
-              <div class="col">02-01-07</div>
-            </div>
-            <div class="row">
-              <div class="col">Phone number</div>
-              <div class="col">:</div>
-              <div class="col">+27 658 057 987</div>
-            </div>
-            <div class="row">
-              <div class="col">Location</div>
-              <div class="col">:</div>
-              <div class="col">Cape Town</div>
-            </div>
-            <div class="row">
-              <h2>accounts...</h2>
-              <div class="col">
-                <a href="https://github.com/DanielJamesF">Github</a>
-              </div>
-              <div class="col">
-                <a
-                  href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"
-                  >Linkedin</a
-                >
-              </div>
-            </div>
+          <div class="col">
+            <a href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"
+              >Linkedin</a
+            >
           </div>
         </div>
       </div>
@@ -77,14 +78,9 @@ export default {};
   padding-bottom: 8%;
 }
 #image {
-  max-width: 100%;
-  height: 80%;
+  width: auto;
+  aspect-ratio: 1;
   object-fit: cover;
-}
-#details {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  height: 200px;
 }
 </style>
