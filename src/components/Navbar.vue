@@ -14,12 +14,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <router-link class="p-1" to="/">Home</router-link> |
-        <router-link class="p-1" to="/about">About</router-link> |
-        <router-link class="p-1" to="/resume">Resume</router-link> |
-        <router-link class="p-1" to="/projects">Projects</router-link> |
-        <router-link class="p-1" to="/testimonials">Testimonials</router-link> |
-        <router-link class="p-1" to="/contact">Contact</router-link>
+        <router-link class="p-3" to="/">Home</router-link> |
+        <router-link class="p-3" to="/about">About</router-link> |
+        <router-link class="p-3" to="/resume">Resume</router-link> |
+        <router-link class="p-3" to="/projects">Projects</router-link> |
+        <router-link class="p-3" to="/testimonials">Testimonials</router-link> |
+        <router-link class="p-3" to="/contact">Contact</router-link>
       </div>
     </div>
   </nav>
