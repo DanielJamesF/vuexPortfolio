@@ -4,7 +4,8 @@
       <div id="box" class="col pb-5">
         <div class="row">
           <div class="col-2"></div>
-          <div id="col1" class="col border-top border-start border-end">
+          <div class="col border-top border-start border-end p-2
+          ">
             <h1 class="h1">Hi I am Daniel Fredericks</h1>
           </div>
           <div class="col-2"></div>

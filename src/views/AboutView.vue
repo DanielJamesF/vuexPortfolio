@@ -82,7 +82,7 @@ export default {};
 
 <style scoped>
 #about {
-  padding-top: 10%;
+  top: 200px;
   padding-bottom: 8%;
 }
 #image {
