@@ -137,7 +137,7 @@ export default {};
 
 <style scoped>
 #contact {
-  height: 100vh;
+  min-height: 100vh;
   padding-top: 10%;
   padding-bottom: 8%;
 }

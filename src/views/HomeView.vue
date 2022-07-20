@@ -12,7 +12,7 @@
         <div class="row">
           <div class="col-2"></div>
           <div class="col border-bottom">
-            <h2 id="col2" class="h2">An Aspiring Web Developer</h2>
+            <h2 id="col2" class="h2">Aspiring Web Developer</h2>
           </div>
           <div class="col-2"></div>
         </div>
