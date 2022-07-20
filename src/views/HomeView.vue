@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 #home {
-  height: 100vh;
+  height: 90vh;
   background-image: url("../assets/mountain.jpg");
   background-size: cover;
   background-position: center;
