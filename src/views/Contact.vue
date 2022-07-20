@@ -1,11 +1,13 @@
 <template>
-  <div id="contact" class="container-fluid">
+  <div id="contact" class="container-fluid bg-dark text-light">
     <div class="row p-1">
       <div class="col">
-        <h1 class="text-decoration-underline display-1">Contact...</h1>
+        <h1 class="text-decoration-underline display-4">Contact...</h1>
         <div class="row">
-          <h2>get in touch...</h2>
-          <div class="col">
+          <div>
+            <h2>get in touch...</h2>
+          </div>
+          <div class="col p-1 g-1 border border-3 rounded-4">
             <form
               class="rounded p-4"
               id="fs-frm"
@@ -18,7 +20,7 @@
               <fieldset id="fs-frm-inputs">
                 <div class="row">
                   <div class="col">
-                    <label for="full-name">Full Name</label>
+                    <label for="full-name">Name</label>
                   </div>
                   <div class="col">
                     <input
@@ -26,7 +28,24 @@
                       type="text"
                       name="name"
                       id="full-name"
-                      placeholder="Name Surname"
+                      placeholder="name"
+                      required
+                    />
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col">
+                    <label for="surname">Surname</label>
+                  </div>
+                  <div class="col">
+                    <input
+                      class="form-control"
+                      type="text"
+                      name="name"
+                      id="surname"
+                      placeholder="surname"
+                      required
                     />
                   </div>
                 </div>
@@ -42,6 +61,39 @@
                       name="_replyto"
                       id="email-address"
                       placeholder="email@gmail.com"
+                      required
+                    />
+                  </div>
+                </div>
+                <br>
+                 <div class="row">
+                  <div class="col">
+                    <label for="phone numbeer">Phone</label>
+                  </div>
+                  <div class="col">
+                    <input
+                      class="form-control"
+                      type="number"
+                      name="number"
+                      id="phone number"
+                      placeholder="+27 123 456 789"
+                      required
+                    />
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col">
+                    <label for="subject">Subject</label>
+                  </div>
+                  <div class="col">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="_subject"
+                      id="subject"
+                      placeholder="what is up?"
+                      required
                     />
                   </div>
                 </div>
@@ -54,7 +106,7 @@
                       rows="4"
                       name="message"
                       id="message"
-                      placeholder="Enter message"
+                      placeholder="leave a message"
                     ></textarea>
                   </div>
                   <input
@@ -86,12 +138,8 @@ export default {};
 <style scoped>
 #contact {
   height: 100vh;
-  padding-top: 8%;
+  padding-top: 10%;
   padding-bottom: 8%;
-}
-form {
-  border: solid black 1px;
-  padding: 0;
 }
 
 textarea {
