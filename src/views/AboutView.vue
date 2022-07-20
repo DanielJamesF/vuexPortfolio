@@ -82,8 +82,8 @@ export default {};
 
 <style scoped>
 #about {
-  padding-top: 10%;
-  padding-bottom: 8%;
+  height: 100vh;
+  padding-top:9%;
 }
 #image {
   width: auto;

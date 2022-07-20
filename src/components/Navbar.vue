@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img id="logo" class="rounded-circle border border-dark" src="../assets/DJF.png" alt=""></a>
       <button
