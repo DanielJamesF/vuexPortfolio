@@ -2,12 +2,12 @@
   <div id="testimonials" class="row">
     <div class="col">
       <div>
-        <h2 class="text-decoration-underline display-3">Testimonials...</h2>
+        <h2 class="text-decoration-underline display-4">Testimonials...</h2>
       </div>
       <br />
       <div
         id="carouselIndicators"
-        class="carousel slide border border-4 p-4 rounded-4"
+        class="carousel slide border border-4 p-5  rounded-4"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">

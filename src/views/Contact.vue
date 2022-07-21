@@ -1,7 +1,7 @@
 <template>
   <div id="contact" class="row">
     <div class="col">
-      <h1 class="text-decoration-underline display-3">Contact...</h1>
+      <h1 class="text-decoration-underline display-4">Contact...</h1>
       <div class="row">
         <div>
           <h2>get in touch...</h2>
