@@ -81,11 +81,7 @@ export default {};
 </script>
 
 <style scoped>
-#about {
-  min-height: 100vh;
-  padding-bottom: 8%;
-  padding-top:10%;
-}
+
 #image {
   width: auto;
   aspect-ratio: 1;

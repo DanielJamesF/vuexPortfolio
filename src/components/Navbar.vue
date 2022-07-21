@@ -1,7 +1,13 @@
 <template>
   <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img id="logo" class="rounded-circle border border-dark" src="../assets/DJF.png" alt=""></a>
+      <a class="navbar-brand" href="#"
+        ><img
+          id="logo"
+          class="rounded-circle border border-dark"
+          src="../assets/DJF.png"
+          alt=""
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -34,10 +40,12 @@ export default {
 <style>
 nav {
   position: fixed;
-  /* left: 0%; */
-  width: 100%;
-  padding: 27px;
+  width: 100vh;
+  left: 0;
+  top: 0;
   background-color: rgb(27, 26, 26);
+  z-index: 1000;
+  height: auto;
 }
 
 nav a {
@@ -49,8 +57,13 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 
-#logo{
+#logo {
   aspect-ratio: 1;
   height: 5rem;
+}
+
+#navbarNav {
+  display: flex;
+  justify-content: end;
 }
 </style>
