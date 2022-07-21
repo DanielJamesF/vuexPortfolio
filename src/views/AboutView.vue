@@ -83,7 +83,8 @@ export default {};
 <style scoped>
 #about {
   min-height: 100vh;
-  padding-top:9%;
+  padding-bottom: 8%;
+  padding-top:10%;
 }
 #image {
   width: auto;
