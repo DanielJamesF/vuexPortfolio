@@ -7,7 +7,7 @@
       <br />
       <div
         id="carouselIndicators"
-        class="carousel slide border border-4 p-5  rounded-4"
+        class="carousel slide border p-2 rounded-4"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -42,7 +42,7 @@
             class="rounded-pill"
           ></button>
         </div>
-        <div class="carousel-inner pb-5">
+        <div class="carousel-inner">
           <div class="carousel-item active">
             <img
               src="../assets/joel2.jpg"
@@ -51,7 +51,7 @@
               id="image"
               class="rounded-circle"
             />
-            <h5 class="py-3">Joel Mukanya</h5>
+            <h5 class="p-3">Joel Mukanya</h5>
             <div id="comments">
               <p>
                 Daniel is respectful and takes his studies seriously. Daniel has
@@ -158,6 +158,12 @@ export default {};
   height: auto;
 }
 #comments {
-  height: 20vh;
+  min-height: 20vh;
+}
+
+@media only screen and (max-width: 425px){
+  #comments{
+    height: 50vh;
+  }
 }
 </style>
