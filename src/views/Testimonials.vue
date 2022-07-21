@@ -7,7 +7,7 @@
       <br />
       <div
         id="carouselIndicators"
-        class="carousel slide border p-2 rounded-4"
+        class="carousel slide border rounded-4"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -51,7 +51,7 @@
               id="image"
               class="rounded-circle"
             />
-            <h5 class="p-3">Joel Mukanya</h5>
+            <h5>Joel Mukanya</h5>
             <div id="comments">
               <p>
                 Daniel is respectful and takes his studies seriously. Daniel has
@@ -86,7 +86,7 @@
               id="image"
               class="rounded-circle"
             />
-            <h5 class="py-3">Muddathir Dawood</h5>
+            <h5>Muddathir Dawood</h5>
             <div id="comments">
               <p>
                 Daniel is a developer with potential to become something great
@@ -104,7 +104,7 @@
               id="image"
               class="rounded-circle"
             />
-            <h5 class="py-3">Jared Isaacs</h5>
+            <h5>Jared Isaacs</h5>
             <div id="comments">
               <p>
                 Daniel is an outgoing, hardworking, creative web developer. Who
@@ -125,7 +125,7 @@
               id="image"
               class="rounded-circle"
             />
-            <h5 class="py-3">Reagan Carolussen</h5>
+            <h5>Reagan Carolussen</h5>
             <div id="comments">
               <p>
                 Daniel is a trustworthy, multi-talented individual that shows
