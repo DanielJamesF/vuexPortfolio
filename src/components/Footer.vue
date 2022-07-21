@@ -12,13 +12,13 @@ export default {
   name: "Footer",
 };
 </script>
-<style scope>
+<style>
 #footer {
   left: 0px;
   bottom: 0px;
   position: fixed;
-  height: 7%;
-  width: 100vw;
+  height: 10vh;
+  width: 100%;
   background-color: rgb(27, 26, 26);
   color: #92989f;
 }

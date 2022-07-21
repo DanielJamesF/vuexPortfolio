@@ -1,18 +1,20 @@
 <template>
-  <Navbar/>
-  <router-view/>
-  <Footer/>
+  <Navbar />
+  <Main />
+  <Footer />
 </template>
 
 <script>
-import Navbar from './components/Navbar.vue';
-import Footer from './components/Footer.vue'
+import Navbar from "./components/Navbar.vue";
+import Main from "./components/Main.vue";
+import Footer from "./components/Footer.vue";
 export default {
   components: {
     Navbar,
-    Footer
-  }
-}
+    Footer,
+    Main,
+  },
+};
 </script>
 
 <style>
@@ -24,5 +26,4 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
-
 </style>

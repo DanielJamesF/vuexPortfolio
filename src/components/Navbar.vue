@@ -4,7 +4,7 @@
       <a class="navbar-brand" href="#"
         ><img
           id="logo"
-          class="rounded-circle border border-dark"
+          class="img-fluid rounded-circle border border-dark"
           src="../assets/DJF.png"
           alt=""
       /></a>
@@ -19,7 +19,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse bg-black p-1" id="navbarNav">
         <router-link class="p-3" to="/">Home</router-link> |
         <router-link class="p-3" to="/about">About</router-link> |
         <router-link class="p-3" to="/resume">Resume</router-link> |
@@ -39,13 +39,8 @@ export default {
 
 <style>
 nav {
-  position: fixed;
-  width: 100vh;
-  left: 0;
-  top: 0;
-  background-color: rgb(27, 26, 26);
-  z-index: 1000;
-  height: auto;
+  width: 100%;
+  height: 10vh;
 }
 
 nav a {
@@ -60,10 +55,5 @@ nav a.router-link-exact-active {
 #logo {
   aspect-ratio: 1;
   height: 5rem;
-}
-
-#navbarNav {
-  display: flex;
-  justify-content: end;
 }
 </style>

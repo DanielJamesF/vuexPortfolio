@@ -1,11 +1,10 @@
 <template>
-  <div id="home" class="container-fluid">
-    <div id=box class="row">
+  <div id="home">
+    <div id="box" class="row">
       <div id="box" class="col pb-5">
         <div class="row">
           <div class="col-2"></div>
-          <div class="col border-top border-start border-end p-2
-          ">
+          <div class="col border-top border-start border-end p-2">
             <h1 class="h1">Hi I am Daniel Fredericks</h1>
           </div>
           <div class="col-2"></div>
@@ -36,7 +35,7 @@ export default {
   background-position: center;
 }
 #box {
-  height: 100%;
+  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
