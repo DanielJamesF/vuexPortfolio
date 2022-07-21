@@ -3,7 +3,18 @@
     <div>
       <h2 class="text-decoration-underline display-3">Projects...</h2>
     </div>
-    <div class="d-flex flex-wrap justify-content-center p-5 gap-4 border border-4 rounded-4 text-dark">
+    <div
+      class="
+        d-flex
+        flex-wrap
+        justify-content-center
+        p-5
+        gap-4
+        border border-4
+        rounded-4
+        text-dark
+      "
+    >
       <div class="card" style="width: 17rem">
         <img
           src="../assets/Calculator.png"
@@ -16,13 +27,13 @@
           <p class="card-text">This is a calculator made using HTML and CSS</p>
           <div class="d-flex justify-content-center">
             <a
-              href="https://aesthetic-donut-f489dd.netlify.app/"
+              href="https://graceful-toffee-220d3a.netlify.app/"
               target="_blank"
               class="btn btn-primary w-50"
               >Live</a
             >
             <a
-              href="https://github.com/DanielJamesF/Calculator"
+              href="https://github.com/DanielJamesF/Javascript_Calculator"
               target="_blank"
               class="btn btn-secondary w-50"
               >Github</a
@@ -104,6 +115,58 @@
             >
             <a
               href="https://github.com/DanielJamesF/website"
+              target="_blank"
+              class="btn btn-secondary w-50"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="../assets/keyboard.png"
+          style="height: 15em"
+          class="card-img-top"
+          alt="keyboard"
+        />
+        <div class="card-body">
+          <h5 class="card-title p-1">Keyboard</h5>
+          <p class="card-text">This is keyboard made using HTML, CSS, and JavaScript</p>
+          <div class="d-flex justify-content-center">
+            <a
+              href="https://glittering-bavarois-894489.netlify.app/"
+              target="_blank"
+              class="btn btn-primary w-50"
+              >Live</a
+            >
+            <a
+              href="https://github.com/DanielJamesF/keyboard"
+              target="_blank"
+              class="btn btn-secondary w-50"
+              >Github</a
+            >
+          </div>
+        </div>
+      </div>
+       <div class="card" style="width: 18rem">
+        <img
+          src="../assets/ToDoApp.png"
+          style="height: 15em"
+          class="card-img-top"
+          alt="keyboard"
+        />
+        <div class="card-body">
+          <h5 class="card-title p-1">To do App</h5>
+          <p class="card-text">This is to do app made using HTML, CSS, and JavaScript</p>
+          <div class="d-flex justify-content-center">
+            <a
+              href="https://spontaneous-cannoli-d39645.netlify.app/"
+              target="_blank"
+              class="btn btn-primary w-50"
+              >Live</a
+            >
+            <a
+              href="https://github.com/DanielJamesF/ToDoApp"
               target="_blank"
               class="btn btn-secondary w-50"
               >Github</a
