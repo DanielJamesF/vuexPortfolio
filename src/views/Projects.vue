@@ -1,5 +1,5 @@
 <template>
-  <!-- <div id="projects" class="row">
+  <div id="projects" class="row">
     <div class="col">
       <div>
         <h2 class="text-decoration-underline display-4">Projects...</h2>
@@ -182,8 +182,8 @@
         </div>
       </div>
     </div>
-  </div> -->
-  <div id="projects">
+  </div>
+  <!-- <div id="projects">
     <div class="col-md-12 pt-5">
       <div class="site-heading text-center">
         <h2 class="text-decoration-underline display-4">Projects...</h2>
@@ -200,22 +200,22 @@
 
       <div v-else>Loading....</div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
-import Card from "../components/Card.vue";
+// import Card from "../components/Card.vue";
 export default {
-  name: "project",
-  mountd() {
-    return this.$store.dispatch("getProjects");
-  },
-  computed: {
-    projects() {
-      return this.$store.state.projects;
-    },
-    components: { Card },
-  },
+  // name: "project",
+  // mountd() {
+  //   return this.$store.dispatch("getProjects");
+  // },
+  // computed: {
+  //   projects() {
+  //     return this.$store.state.projects;
+  //   },
+  //   components: { Card },
+  // },
 };
 </script>
 
