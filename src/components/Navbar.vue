@@ -1,10 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container-fluid">
       <div class="navbar-brand" href="#"
         ><img
           id="logo"
-          class="img-fluid rounded-circle border border-dark"
+          class="img-fluid rounded-circle"
           src="../assets/DJF.png"
           alt=""
       /></div>
@@ -49,11 +49,14 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: rgb(206, 30, 30);
 }
 
 #logo {
   aspect-ratio: 1;
-  height: 5rem;
+  scroll-padding-left: 1px;
+  width: 100px;
+  height: auto;
+  background-color: rgb(111, 19, 19);
 }
 </style>

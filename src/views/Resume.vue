@@ -67,7 +67,9 @@
               aria-valuenow="70%"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>77%</span></div>
+            >
+              <span>77%</span>
+            </div>
           </div>
           <h6 class="p-1">CSS</h6>
           <div class="progress m-1">
@@ -78,7 +80,9 @@
               aria-valuenow="55"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>71%</span></div>
+            >
+              <span>71%</span>
+            </div>
           </div>
           <h6 class="p-1">Bootstrap</h6>
           <div class="progress m-1">
@@ -89,7 +93,9 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>69%</span></div>
+            >
+              <span>69%</span>
+            </div>
           </div>
           <h6 class="p-1">mySQL</h6>
           <div class="progress m-1">
@@ -100,7 +106,9 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>65%</span></div>
+            >
+              <span>65%</span>
+            </div>
           </div>
           <h6 class="p-1">JavaScript</h6>
           <div class="progress m-1">
@@ -111,7 +119,9 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>55%</span></div>
+            >
+              <span>55%</span>
+            </div>
           </div>
           <h6 class="p-1">Vuex</h6>
           <div class="progress m-1">
@@ -122,14 +132,28 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ><span>40%</span></div>
+            >
+              <span>40%</span>
+            </div>
           </div>
         </div>
       </div>
       <br />
-      <div class="row d-flex justify-content-center p-1 g-1 border border-2 rounded-3">
+      <div
+        class="
+          row
+          d-flex
+          justify-content-center
+          p-1
+          g-1
+          border border-2
+          rounded-3
+        "
+      >
         <div>
-          <h4 data-aos="fade-right" class="p-1 animate__bounce">Soft Skills:</h4>
+          <h4 data-aos="fade-right" class="p-1 animate__bounce">
+            Soft Skills:
+          </h4>
         </div>
         <div class="progress">
           <div
@@ -167,5 +191,7 @@
   padding-top: 10vh;
   min-height: 100vh;
   padding-bottom: 10vh;
+  background-color: rgb(111, 19, 19);
+  opacity: 80%;
 }
 </style>

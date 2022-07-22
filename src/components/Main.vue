@@ -1,5 +1,5 @@
 <template>
-  <div id="main" class="container-fluid bg-dark text-light">
+  <div id="main" class="container-fluid text-light">
     <router-view />
   </div>
 </template>
@@ -11,7 +11,8 @@ export default {
 </script>
 
 <style>
-#id {
-  height: 100vh;
+#main {
+  min-height: 100vh;
+  background-color: rgb(111, 19, 19);
 }
 </style>

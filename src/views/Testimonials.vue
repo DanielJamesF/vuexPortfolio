@@ -154,6 +154,8 @@ export default {
   min-height: 100vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
+  background-color: rgb(111, 19, 19);
+  opacity: 80%;
 }
 #image {
   aspect-ratio: 1;
@@ -165,8 +167,8 @@ export default {
   min-height: 20vh;
 }
 
-@media only screen and (max-width: 425px){
-  #comments{
+@media only screen and (max-width: 425px) {
+  #comments {
     height: 50vh;
   }
 }
