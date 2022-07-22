@@ -1,7 +1,7 @@
 <template>
   <div id="testimonials" class="row">
     <h2 class="display-4">Testimonials...</h2>
-    <div v-for="carouselitem in Carousel" :key="carouselitem">
+    <!-- <div v-for="carouselitem in Carousel" :key="carouselitem"> -->
       <div class="col">
         <br />
         <div
@@ -133,16 +133,17 @@
           </div>
         </div>
       </div>
-    </div>
+    <!-- </div> -->
   </div>
 </template>
+
 <script>
 export default {
-  computed: {
-    Carousel() {
-      return this.$store.state.carousel;
-    },
-  },
+//   computed: {
+//     Carousel() {
+//       return this.$store.state.carousel;
+//     },
+//   },
 };
 </script>
 

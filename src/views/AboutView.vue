@@ -17,7 +17,7 @@
           <div>
             <div>
               <h2>bio...</h2>
-              <p>
+              <p class="border border-2 rounded-3 p-1">
                 I am a student at life Choices Academy where I am studying
                 coding in order to become a Web Developer in the future. My
                 passsion for coding stems from my love of technology and
@@ -30,7 +30,7 @@
             <br />
             <div>
               <h2>hobbies...</h2>
-              <p>
+              <p class="border border-2 rounded-3 p-1">
                 I enjoy playing soccer, whether it's eleven a side or five a
                 side, listening to music, mostly rap however I do enjoy listing
                 to other genres as well, reading manga, watching anime, and
@@ -40,8 +40,8 @@
             </div>
           </div>
           <br />
-          <div>
             <h2>other...</h2>
+          <div class="border border-2 rounded-3 p-1">
             <div class="row">
               <div class="col-5">Date Of Birth</div>
               <div class="col-1">:</div>

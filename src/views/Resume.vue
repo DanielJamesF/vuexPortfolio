@@ -6,9 +6,9 @@
       </div>
       <br />
       <div>
-        <h3 class="text-decoration-underline">education...</h3>
+        <h3>education...</h3>
       </div>
-      <div class="row p-1 g-1 border border-3">
+      <div class="row p-1 g-1 border border-2 rounded-3">
         <br />
         <div class="col-2">
           <p>March 2022 - present</p>
@@ -25,7 +25,7 @@
         </div>
       </div>
       <br />
-      <div class="row p-1 g-1 border border-3">
+      <div class="row p-1 g-1 border border-2 rounded-3">
         <div class="col-2">
           <p>2015 - 2019</p>
         </div>
@@ -40,9 +40,9 @@
       <br />
       <br />
       <div>
-        <h3 class="text-decoration-underline">skills...</h3>
+        <h3>skills...</h3>
       </div>
-      <div id="border" class="row p-1 g-1 border border-3">
+      <div id="border" class="row p-1 g-1 border border-2 rounded-3">
         <div>
           <h4 class="p-2">Technical Skills:</h4>
         </div>
@@ -67,7 +67,7 @@
               aria-valuenow="70%"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>77%</span></div>
           </div>
           <h6 class="p-1">CSS</h6>
           <div class="progress m-1">
@@ -78,7 +78,7 @@
               aria-valuenow="55"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>71%</span></div>
           </div>
           <h6 class="p-1">Bootstrap</h6>
           <div class="progress m-1">
@@ -89,7 +89,7 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>69%</span></div>
           </div>
           <h6 class="p-1">mySQL</h6>
           <div class="progress m-1">
@@ -100,7 +100,7 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>65%</span></div>
           </div>
           <h6 class="p-1">JavaScript</h6>
           <div class="progress m-1">
@@ -111,7 +111,7 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>55%</span></div>
           </div>
           <h6 class="p-1">Vuex</h6>
           <div class="progress m-1">
@@ -122,12 +122,12 @@
               aria-valuenow="65"
               aria-valuemin="0"
               aria-valuemax="100"
-            ></div>
+            ><span>40%</span></div>
           </div>
         </div>
       </div>
       <br />
-      <div class="row d-flex justify-content-center p-1 g-1 border border-3">
+      <div class="row d-flex justify-content-center p-1 g-1 border border-2 rounded-3">
         <div>
           <h4 data-aos="fade-right" class="p-1">Soft Skills:</h4>
         </div>
