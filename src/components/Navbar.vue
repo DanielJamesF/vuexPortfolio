@@ -1,13 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"
-        ><img
-          id="logo"
-          class="img-fluid rounded-circle border border-dark"
-          src="../assets/DJF.png"
-          alt=""
-      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -27,6 +20,13 @@
         <router-link class="p-3" to="/testimonials">Testimonials</router-link> |
         <router-link class="p-3" to="/contact">Contact</router-link>
       </div>
+      <div class="navbar-brand" href="#"
+        ><img
+          id="logo"
+          class="img-fluid rounded-circle border border-dark"
+          src="../assets/DJF.png"
+          alt=""
+      /></div>
     </div>
   </nav>
 </template>
@@ -55,6 +55,6 @@ nav a.router-link-exact-active {
 #logo {
   aspect-ratio: 1;
   height: 5rem;
-  display: none;
+  /* display: none; */
 }
 </style>
