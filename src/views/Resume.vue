@@ -129,7 +129,7 @@
       <br />
       <div class="row d-flex justify-content-center p-1 g-1 border border-2 rounded-3">
         <div>
-          <h4 data-aos="fade-right" class="p-1">Soft Skills:</h4>
+          <h4 data-aos="fade-right" class="p-1 animate__bounce">Soft Skills:</h4>
         </div>
         <div class="progress">
           <div

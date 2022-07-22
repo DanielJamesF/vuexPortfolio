@@ -12,6 +12,13 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+      <div class="navbar-brand" href="#"
+        ><img
+          id="logo"
+          class="img-fluid rounded-circle border border-dark"
+          src="../assets/DJF.png"
+          alt=""
+      /></div>
       <div class="collapse navbar-collapse bg-black p-1" id="navbarNav">
         <router-link class="p-3" to="/">Home</router-link> |
         <router-link class="p-3" to="/about">About</router-link> |
@@ -20,13 +27,6 @@
         <router-link class="p-3" to="/testimonials">Testimonials</router-link> |
         <router-link class="p-3" to="/contact">Contact</router-link>
       </div>
-      <div class="navbar-brand" href="#"
-        ><img
-          id="logo"
-          class="img-fluid rounded-circle border border-dark"
-          src="../assets/DJF.png"
-          alt=""
-      /></div>
     </div>
   </nav>
 </template>
