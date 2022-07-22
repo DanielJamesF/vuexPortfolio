@@ -1,10 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-lg text-light fixed-top">
+  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img
           id="logo"
-          class="img-fluid rounded-circle"
+          class="img-fluid rounded-circle border border-dark"
           src="../assets/DJF.png"
           alt=""
       /></a>
@@ -19,7 +19,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse bg-black" id="navbarNav">
+      <div class="collapse navbar-collapse bg-black p-1" id="navbarNav">
         <router-link class="p-3" to="/">Home</router-link> |
         <router-link class="p-3" to="/about">About</router-link> |
         <router-link class="p-3" to="/resume">Resume</router-link> |
@@ -39,7 +39,7 @@ export default {
 
 <style>
 nav {
-  width: 100vh;
+  width: 100%;
   height: 10vh;
 }
 
@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b9ab;
+  color: #42b983;
 }
 
 #logo {
