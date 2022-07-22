@@ -39,7 +39,7 @@ export default {
 
 <style>
 nav {
-  width: 100%;
+  width: 100vh;
   height: 10vh;
 }
 
