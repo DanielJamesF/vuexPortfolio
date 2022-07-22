@@ -1,10 +1,10 @@
 <template>
-  <nav class="navbar navbar-expand-lg text-light navbar-dark bg-dark fixed-top">
+  <nav class="navbar navbar-expand-lg text-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"
         ><img
           id="logo"
-          class="img-fluid rounded-circle border border-dark"
+          class="img-fluid rounded-circle"
           src="../assets/DJF.png"
           alt=""
       /></a>
