@@ -30,9 +30,11 @@ export default {
 <style scoped>
 #home {
   height: 100vh;
+  background-color: rgb(232, 43, 43);
   background-image: url("../assets/mountain.jpg");
   background-size: cover;
   background-position: center;
+  background-blend-mode: multiply;
 }
 #box {
   min-height: 100%;
