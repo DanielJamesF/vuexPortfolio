@@ -9,7 +9,7 @@
           alt=""
       /></div>
       <button
-        class="navbar-toggler"
+        class="navbar-toggler bg-light opacity-25"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarNav"
