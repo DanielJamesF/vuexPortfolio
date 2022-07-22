@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="row">
     <div class="col">
-      <h1 class="text-decoration-underline display-4 pt-sm-5">About...</h1>
+      <h1 class="display-4">About...</h1>
       <br />
       <div id="row" class="row justify-content-center">
         <div class="col-8">
@@ -66,6 +66,7 @@
 </template>
 
 <script>
+import 'animate.css';
 export default {};
 </script>
 

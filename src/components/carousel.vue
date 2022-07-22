@@ -2,7 +2,7 @@
   <div id="testimonials" class="row">
     <div class="col">
       <div>
-        <h2 class="text-decoration-underline display-4">Testimonials...</h2>
+        <h2 class="display-4">Testimonials...</h2>
       </div>
       <br />
       <div

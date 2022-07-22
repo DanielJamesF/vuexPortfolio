@@ -2,7 +2,7 @@
   <div id="contact" class="container-fluid">
     <div class="row">
       <div class="col">
-        <h1 class="text-decoration-underline display-4">Contact...</h1>
+        <h1 class="display-4">Contact...</h1>
         <div class="row">
           <div>
             <h2>get in touch...</h2>
