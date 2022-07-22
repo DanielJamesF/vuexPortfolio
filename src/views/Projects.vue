@@ -1,5 +1,7 @@
 <template>
+<div id="projects">
   <Card />
+</div>
 </template>
 
 <script>
@@ -10,9 +12,5 @@ export default {
 </script>
 
 <style scoped>
-#projects {
-  padding-top: 10vh;
-  min-height: 100vh;
-  padding-bottom: 10vh;
-}
+
 </style>

@@ -1,48 +1,54 @@
 <template>
   <div id="projects" class="row">
-    <div class="col">
-      <div>
-        <h2 class="display-4">Projects...</h2>
-      </div>
-      <div
-        class="
-          d-flex
-          flex-wrap
-          justify-content-center
-          p-4
-          gap-4
-          rounded-4
-          text-dark
-        "
-      >
-        <div class="card" style="width: 17rem">
-          <img
-            src="../assets/JSCalculator.png"
-            style="height: 15em"
-            class="card-img-top"
-            alt="calculator"
-          />
-          <div class="card-body">
-            <h5 class="card-title p-1">Calculator</h5>
-            <p class="card-text">
-              This is a calculator made using HTML and CSS
-            </p>
-            <div class="d-flex justify-content-center">
-              <a
-                href="https://graceful-toffee-220d3a.netlify.app/"
-                target="_blank"
-                class="btn btn-primary w-50"
-                >Live</a
-              >
-              <a
-                href="https://github.com/DanielJamesF/Javascript_Calculator"
-                target="_blank"
-                class="btn btn-secondary w-50"
-                >Github</a
-              >
+    <h2 class="display-4">Projects...</h2>
+    <div v-for="project in Projects" :key="project">
+      <div class="col">
+        <div></div>
+        <div
+          class="
+            d-flex
+            flex-wrap
+            justify-content-center
+            p-4
+            gap-4
+            rounded-4
+            text-dark
+          "
+        >
+          <div class="card" style="width: 17rem">
+            <img
+              :src="project.image"
+              style="height: 15em"
+              class="card-img-top"
+              alt="calculator"
+            />
+            <div class="card-body">
+              <h5 class="card-title p-1">{{ project.title }}</h5>
+              <p class="card-text">
+                {{ project.desc }}
+              </p>
+              <div class="d-flex justify-content-center">
+                <a
+                  href="{{ project.live }} "
+                  target="_blank"
+                  class="btn btn-primary w-50"
+                  >Live</a
+                >
+                <a
+                  href="{{ project.github }}"
+                  target="_blank"
+                  class="btn btn-secondary w-50"
+                  >Github</a
+                >
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!--
         <div class="card" style="width: 18rem">
           <img
             src="../assets/holidaydestination.png"
@@ -182,12 +188,23 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    Projects() {
+      return this.$store.state.projects;
+    },
+  },
+};
 </script>
 
 <style scoped>
+#projects {
+  padding-top: 10vh;
+  min-height: 100vh;
+  padding-bottom: 10vh;
+}
 </style>
