@@ -19,7 +19,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse bg-black p-1" id="navbarNav">
+      <div class="collapse navbar-collapse bg-black" id="navbarNav">
         <router-link class="p-3" to="/">Home</router-link> |
         <router-link class="p-3" to="/about">About</router-link> |
         <router-link class="p-3" to="/resume">Resume</router-link> |
@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #42b9ab;
 }
 
 #logo {

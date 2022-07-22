@@ -1,6 +1,6 @@
-<template >
-  <div class="row" id="resume">
-    <div class="col">
+<template>
+  <div id="resume" class="row">
+    <!-- <div class="col">
       <div class="heading">
         <h1 class="text-decoration-underline display-4">Resume...</h1>
       </div>
@@ -29,10 +29,10 @@
         <div class="col-2">
           <p>2015 - 2019</p>
         </div>
-        <div class="col-4">
+        <div class="col-3">
           <h4>Grassy Park High School</h4>
         </div>
-        <div class="col-6">
+        <div class="col">
           I attended and got my NQ4 form Grassy Park High School from which I
           matriculated with a Diploma pass
         </div>
@@ -150,22 +150,20 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
-  <!-- <resumecomp /> -->
 </template>
 
 <script>
-// import Resume from "../components/ResumeComponent.vue";
-// export default {
-//   components: { Resume },
-// };
+export default {
+    
+};
 </script>
 
-<style scoped>
-#resume {
+<style>
+/* #resume {
   padding-top: 10vh;
   min-height: 100vh;
   padding-bottom: 10vh;
-}
+} */
 </style>

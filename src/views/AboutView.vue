@@ -15,61 +15,50 @@
           </div>
           <br />
           <div>
-            <h2>bio...</h2>
-          </div>
-          <div>
-            <p>
-              I am a student at life Choices Academy where I am studying coding
-              in order to become a Web Developer in the future. My passsion for
-              coding stems from my love of technology and anything related to
-              it. I am a hard worker and am able to work well in groups as I
-              believe that I am able to get along with people pretty well.
-            </p>
+            <div>
+              <h2>bio...</h2>
+              <p>
+                I am a student at life Choices Academy where I am studying
+                coding in order to become a Web Developer in the future. My
+                passsion for coding stems from my love of technology and
+                anything related to it. I am a hard worker and am able to work
+                well in groups as I believe that I am able to get along with
+                people pretty well.
+              </p>
+            </div>
+
             <br />
             <div>
               <h2>hobbies...</h2>
+              <p>
+                I enjoy playing soccer, whether it's eleven a side or five a
+                side, listening to music, mostly rap however I do enjoy listing
+                to other genres as well, reading manga, watching anime, and
+                going out with friends, I esecially enjoy spending time with
+                those that I am close with.
+              </p>
             </div>
-            <p>
-              I enjoy playing soccer, whether it's eleven a side or five a side,
-              listening to music, mostly rap however I do enjoy listing to other
-              genres as well, reading manga, watching anime, and going out with
-              friends, I esecially enjoy spending time with those that I am
-              close with.
-            </p>
           </div>
           <br />
           <div>
             <h2>other...</h2>
-          </div>
-          <div class="row">
-            <div class="col-5">Date Of Birth</div>
-            <div class="col-1">:</div>
-            <div class="col">02-01-07</div>
-          </div>
-          <div class="row">
-            <div class="col-5">Phone number</div>
-            <div class="col-1">:</div>
-            <div class="col">+27 658 057 987</div>
-          </div>
-          <div class="row">
-            <div class="col-5">Location</div>
-            <div class="col-1">:</div>
-            <div class="col">Cape Town</div>
+            <div class="row">
+              <div class="col-5">Date Of Birth</div>
+              <div class="col-1">:</div>
+              <div class="col">02-01-07</div>
+            </div>
+            <div class="row">
+              <div class="col-5">Phone number</div>
+              <div class="col-1">:</div>
+              <div class="col">+27 658 057 987</div>
+            </div>
+            <div class="row">
+              <div class="col-5">Location</div>
+              <div class="col-1">:</div>
+              <div class="col">Cape Town</div>
+            </div>
           </div>
           <br />
-          <div>
-            <h2>accounts...</h2>
-          </div>
-          <div class="row">
-            <div class="col">
-              <a href="https://github.com/DanielJamesF">Github</a>
-            </div>
-            <div class="col">
-              <a href="https://www.linkedin.com/in/daniel-fredericks-85744023a/"
-                >Linkedin</a
-              >
-            </div>
-          </div>
         </div>
       </div>
     </div>
