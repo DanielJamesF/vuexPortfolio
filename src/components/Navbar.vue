@@ -55,5 +55,6 @@ nav a.router-link-exact-active {
 #logo {
   aspect-ratio: 1;
   height: 5rem;
+  display: none;
 }
 </style>
