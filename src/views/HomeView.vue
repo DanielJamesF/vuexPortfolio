@@ -1,24 +1,14 @@
 <template>
-  <div id="home">
-    <div id="box" class="row">
-      <div id="box" class="col pb-5">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col border-top border-start border-end p-2">
-            <h1 class="h1">Hi I am Daniel Fredericks</h1>
+  <section id="home">
+    <div class="container-fluid pb-5">
+          <div class="row">
+            <div class="col">
+              <h3>Aspiring Web Developer</h3>
+              <h1 class="h1">Hi I am Daniel Fredericks</h1>
+            </div>
           </div>
-          <div class="col-2"></div>
         </div>
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col border-bottom">
-            <h2 id="col2" class="h2">Aspiring Web Developer</h2>
-          </div>
-          <div class="col-2"></div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -30,17 +20,19 @@ export default {
 <style scoped>
 #home {
   height: 100vh;
-  background-color: rgb(232, 43, 43);
-  background-image: url("../assets/mountain.jpg");
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
-}
-#box {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url("../assets/mountain.jpg");
+  background-size: cover;
+  background-position: center;
   color: white;
+}
+h1{
+  font-size: 60px;
+  text-shadow: 2px 2px grey;
+}
+h3{
+  text-shadow: 2px 2px grey;
 }
 </style>

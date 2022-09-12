@@ -139,11 +139,11 @@
 
 <script>
 export default {
-//   computed: {
-//     Carousel() {
-//       return this.$store.state.carousel;
-//     },
-//   },
+  computed: {
+    Carousel() {
+      return this.$store.state.carousel;
+    },
+  },
 };
 </script>
 
@@ -161,11 +161,5 @@ export default {
 }
 #comments {
   min-height: 20vh;
-}
-
-@media only screen and (max-width: 425px) {
-  #comments {
-    height: 50vh;
-  }
 }
 </style>

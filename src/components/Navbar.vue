@@ -1,31 +1,56 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <div class="navbar-brand" href="#"
-        ><img
-          id="logo"
-          class="img-fluid rounded-circle"
-          src="../assets/DJF.png"
-          alt=""
-      /></div>
+  <nav class="fixed-top">
+    <div class="d-flex justify-content-start bg-transparent">
       <button
-        class="navbar-toggler bg-light opacity-25"
+        id="button"
+        class="btn border-0"
         type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasExample"
+        aria-controls="offcanvasExample"
       >
-        <span class="navbar-toggler-icon"></span>
+        <i class="bi bi-arrow-bar-right" style="color: black; font-size: 50px;"></i>
       </button>
-      <div class="collapse navbar-collapse bg-black p-1" id="navbarNav">
-        <router-link class="p-3" to="/">Home</router-link> |
-        <router-link class="p-3" to="/about">About</router-link> |
-        <router-link class="p-3" to="/resume">Resume</router-link> |
-        <router-link class="p-3" to="/projects">Projects</router-link> |
-        <router-link class="p-3" to="/testimonials">Testimonials</router-link> |
-        <router-link class="p-3" to="/contact">Contact</router-link>
+    </div>
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div id="navbarNav">
+          <div class="navbar-nav">
+            <div class="d-flex flex-column">
+              <router-link @click="closebar" to="/"
+                >Home</router-link
+              >
+              <router-link @click="closebar" to="/about"
+                >About</router-link
+              >
+              <router-link @click="closebar" to="/projects"
+                >Projects</router-link
+              >
+              <router-link @click="closebar" to="/resume"
+                >Resume</router-link
+              >
+              <router-link @click="closebar" to="/testimonials"
+                >Testimonials</router-link
+              >
+              <router-link @click="closebar" to="/"
+                ></router-link
+              >
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </nav>
@@ -34,6 +59,11 @@
 <script>
 export default {
   name: "Navbar",
+  methods: {
+    closebar() {
+      document.getElementById("button").click();
+    },
+  }
 };
 </script>
 
@@ -46,17 +76,17 @@ nav {
 nav a {
   font-weight: bold;
   color: #92989f;
+  text-decoration: none;
+  font-size: 40px;
+  line-height: 90px;
+  text-shadow: 2px 2px grey;
+}
+
+nav a:hover{
+  color: white;
 }
 
 nav a.router-link-exact-active {
-  color: rgb(206, 30, 30);
-}
-
-#logo {
-  aspect-ratio: 1;
-  scroll-padding-left: 1px;
-  width: 100px;
-  height: auto;
-  background-color: rgb(111, 19, 19);
+  color: black;
 }
 </style>

@@ -140,7 +140,7 @@ export default {};
   padding-top: 10vh;
   min-height: 100vh;
   padding-bottom: 10vh;
-  background-color: rgb(111, 19, 19);
+  background-color: rgb(232, 43, 43);
   opacity: 80%;
 }
 </style>

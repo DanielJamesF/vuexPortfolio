@@ -152,10 +152,7 @@ export default {
 <style>
 #testimonials {
   min-height: 100vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
-  background-color: rgb(111, 19, 19);
-  opacity: 80%;
+  padding: 80px;
 }
 #image {
   aspect-ratio: 1;
@@ -164,12 +161,6 @@ export default {
   height: auto;
 }
 #comments {
-  min-height: 20vh;
-}
-
-@media only screen and (max-width: 425px) {
-  #comments {
-    height: 50vh;
-  }
+  min-height: 200px;
 }
 </style>

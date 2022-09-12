@@ -7,7 +7,7 @@ export default createStore({
     projects: [{
         id: 1,
         title: "Calculator",
-        image: "../assets/JSCalculator.png",
+        image: "https://i.postimg.cc/52ZjYMLp/Calculator.png",
         desc: "This is a calculator made using HTML, CSS and JavaScript",
         live: "https://graceful-toffee-220d3a.netlify.app/",
         github: "https://github.com/DanielJamesF/Javascript_Calculator"
@@ -16,7 +16,7 @@ export default createStore({
       {
         id: 2,
         title: "Holiday destination",
-        image: "../assets/holidaydestination.png",
+        image: "https://i.postimg.cc/Cx5pyvrg/holidaydestination.png",
         desc: "This is a hoiliday destination website with a contact page made using HTML, CSS",
         live: "https://dapper-praline-4dabc1.netlify.app",
         github: "https://github.com/DanielJamesF/holiday_destination"
@@ -25,7 +25,7 @@ export default createStore({
       {
         id: 3,
         title: "Rainbow",
-        image: "../assets/rainbow.png",
+        image: "https://i.postimg.cc/43v5WGvN/rainbow.png",
         desc: "   This is a rainbow made using HTML, CSS",
         live: "https://peaceful-hamster-c0a214.netlify.app",
         github: "https://github.com/DanielJamesF/Rainbow"
@@ -34,7 +34,7 @@ export default createStore({
       {
         id: 4,
         title: "Website",
-        image: "../assets/Website.png",
+        image: "https://i.postimg.cc/t4WtgbMt/Website.png",
         desc: "This is a website made using HTML, CSS",
         live: "https://delicate-tartufo-8fde53.netlify.app",
         github: "https://github.com/DanielJamesF/website"
@@ -43,7 +43,7 @@ export default createStore({
       {
         id: 5,
         title: "Keyboard",
-        image: "../assets/keyboard.png",
+        image: "https://i.postimg.cc/WtRqRFTR/keyboard.png",
         desc: "This is a keyboard made using HTML, CSS and JavaScript",
         live: "https://glittering-bavarois-894489.netlify.app/",
         github: "https://github.com/DanielJamesF/keyboard"
@@ -52,7 +52,7 @@ export default createStore({
       {
         id: 6,
         title: "To do app",
-        image: "../assets/ToDoApp.png",
+        image: "https://i.postimg.cc/yYFy1B5h/ToDoApp.png",
         desc: "This is a calculator made using HTML, CSS and JavaScript",
         live: "https://spontaneous-cannoli-d39645.netlify.app/",
         github: "https://github.com/DanielJamesF/ToDoApp"
