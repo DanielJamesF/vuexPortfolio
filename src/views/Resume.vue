@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col">
           <h2>Resume</h2>
-          <div class="row border">
+          <div class="row">
             <h3>Education</h3>
             <div class="col-4">
               <p>March 2022 - present</p>
@@ -17,7 +17,7 @@
               </p>
             </div>
           </div>
-          <div class="row border">
+          <div class="row">
             <div class="col-4">
               <p>2015 - 2019</p>
             </div>
@@ -27,21 +27,20 @@
             </div>
           </div>
           <h3>Skills</h3>
-          <div class="row border p-2">
+          <div class="row p-2">
             <h4 class="p-1">Technical Skills</h4>
-            <div class="progress rounded-0"></div>
             <div class="col text-start">
               <h6 class="p-1">Html</h6>
-              <div class="progress ">
+              <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active"
                   role="progressbar"
-                  style="width: 77%"
+                  style="width: 78%"
                   aria-valuenow="70%"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>77%</span>
+                  <span>78%</span>
                 </div>
               </div>
               <h6 class="p-1">CSS</h6>
@@ -49,12 +48,12 @@
                 <div
                   class="progress-bar rounded-pill"
                   role="progressbar"
-                  style="width: 71%"
+                  style="width: 73%"
                   aria-valuenow="55"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>71%</span>
+                  <span>73%</span>
                 </div>
               </div>
               <h6 class="p-1">Bootstrap</h6>
@@ -62,12 +61,12 @@
                 <div
                   class="progress-bar rounded-pill"
                   role="progressbar"
-                  style="width: 69%"
+                  style="width: 70%"
                   aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>69%</span>
+                  <span>70%</span>
                 </div>
               </div>
               <h6 class="p-1">mySQL</h6>
@@ -75,12 +74,12 @@
                 <div
                   class="progress-bar rounded-pill"
                   role="progressbar"
-                  style="width: 65%"
+                  style="width: 68%"
                   aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>65%</span>
+                  <span>68%</span>
                 </div>
               </div>
               <h6 class="p-1">JavaScript</h6>
@@ -88,15 +87,28 @@
                 <div
                   class="progress-bar rounded-pill"
                   role="progressbar"
-                  style="width: 55%"
+                  style="width: 57%"
                   aria-valuenow="65"
                   aria-valuemin="0"
                   aria-valuemax="100"
                 >
-                  <span>55%</span>
+                  <span>57%</span>
                 </div>
               </div>
               <h6 class="p-1">Vuex</h6>
+              <div class="progress">
+                <div
+                  class="progress-bar rounded-pill"
+                  role="progressbar"
+                  style="width: 56%"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span>56%</span>
+                </div>
+              </div>
+              <h6 class="p-1">Node.js</h6>
               <div class="progress">
                 <div
                   class="progress-bar rounded-pill"
@@ -112,17 +124,8 @@
             </div>
           </div>
           <br />
-          <div
-            class="
-              row
-              d-flex
-              justify-content-center
-              border
-              p-2
-            "
-          >
+          <div class="row d-flex justify-content-center p-2">
             <h4 class="p-1">Soft Skills</h4>
-            <div class="progress rounded-0"></div>
             <div class="col text-center">
               <ul class="list-group">
                 <li class="list-group-item m-1 p-2">Creativity</li>

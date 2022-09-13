@@ -4,11 +4,11 @@
       <h2>About me</h2>
       <div class="row">
         <div class="col">
-          <div>
+          <div style="object-fit: cover; height: 200px; aspect-ratio: 1; position: relative; border-radius: 50%; overflow: hidden;" class="mx-auto">
             <img
               id="image"
               class="img-fluid"
-              style="aspect-ratio: 1; object-fit: contain; height: 200px"
+              style="position: absolute; top: 0; left: 0;"
               src="../assets/aboutImage.png"
               alt="daniel"
             />
