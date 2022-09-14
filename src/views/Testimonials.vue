@@ -3,12 +3,12 @@
   <div id="testimonials" class="row">
     <div class="col">
       <div>
-        <h2 class="text-decoration-underline display-4">Testimonials...</h2>
+        <h2>Testimonials</h2>
       </div>
       <br />
       <div
         id="carouselIndicators"
-        class="carousel slide border rounded-4"
+        class="carousel slide shadow"
         data-bs-ride="carousel"
       >
         <div class="carousel-indicators">
@@ -16,31 +16,31 @@
             type="button"
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="0"
-            class="active rounded-pill"
+            class="active bg-black"
           ></button>
           <button
             type="button"
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="1"
-            class="rounded-pill"
+            class="bg-black"
           ></button>
           <button
             type="button"
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="2"
-            class="rounded-pill"
+            class="bg-black"
           ></button>
           <button
             type="button"
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="3"
-            class="rounded-pill"
+            class="bg-black"
           ></button>
           <button
             type="button"
             data-bs-target="#carouselIndicators"
             data-bs-slide-to="4"
-            class="rounded-pill"
+            class="bg-black"
           ></button>
         </div>
         <div class="carousel-inner">
@@ -143,7 +143,7 @@
 </template>
 
 <script>
-// import carousel from '../components/carousel.vue';
+import carousel from '../components/carousel.vue';
 export default {
   // components: {carousel}
 };
@@ -162,5 +162,9 @@ export default {
 }
 #comments {
   min-height: 200px;
+}
+h2 {
+  font-size: 70px;
+  text-shadow: 2px 2px grey;
 }
 </style>

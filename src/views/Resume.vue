@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col">
           <h2>Resume</h2>
-          <div class="row">
+          <div class="row shadow">
             <h3>Education</h3>
             <div class="col-4">
               <p>March 2022 - present</p>
@@ -17,7 +17,7 @@
               </p>
             </div>
           </div>
-          <div class="row">
+          <div class="row shadow">
             <div class="col-4">
               <p>2015 - 2019</p>
             </div>
@@ -33,7 +33,7 @@
               <h6 class="p-1">Html</h6>
               <div class="progress">
                 <div
-                  class="progress-bar progress-bar-striped active"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 78%"
                   aria-valuenow="70%"
@@ -46,7 +46,7 @@
               <h6 class="p-1">CSS</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 73%"
                   aria-valuenow="55"
@@ -59,7 +59,7 @@
               <h6 class="p-1">Bootstrap</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 70%"
                   aria-valuenow="65"
@@ -72,7 +72,7 @@
               <h6 class="p-1">mySQL</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 68%"
                   aria-valuenow="65"
@@ -85,7 +85,7 @@
               <h6 class="p-1">JavaScript</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 57%"
                   aria-valuenow="65"
@@ -98,7 +98,7 @@
               <h6 class="p-1">Vuex</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 56%"
                   aria-valuenow="65"
@@ -111,7 +111,7 @@
               <h6 class="p-1">Node.js</h6>
               <div class="progress">
                 <div
-                  class="progress-bar rounded-pill"
+                  class="progress-bar progress-bar-striped active rounded-pill"
                   role="progressbar"
                   style="width: 40%"
                   aria-valuenow="65"
@@ -121,10 +121,22 @@
                   <span>40%</span>
                 </div>
               </div>
+              <h6 class="p-1">Express.js</h6>
+              <div class="progress">
+                <div
+                  class="progress-bar progress-bar-striped active rounded-pill"
+                  role="progressbar"
+                  style="width: 37%"
+                  aria-valuenow="65"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                >
+                  <span>37%</span>
+                </div>
+              </div>
             </div>
           </div>
-          <br />
-          <div class="row d-flex justify-content-center p-2">
+          <div class="row d-flex justify-content-center shadow bg">
             <h4 class="p-1">Soft Skills</h4>
             <div class="col text-center">
               <ul class="list-group">
