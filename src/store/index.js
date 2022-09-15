@@ -56,6 +56,22 @@ export default createStore({
         desc: "This is a calculator made using HTML, CSS and JavaScript",
         live: "https://spontaneous-cannoli-d39645.netlify.app/",
         github: "https://github.com/DanielJamesF/ToDoApp"
+      },
+      {
+        id: 7,
+        title: "Go Figure",
+        image: "https://i.postimg.cc/cJr5PPV2/Screenshot-2022-09-15-083721.png",
+        desc: "This is an e-commerce website built together with my partner Abdus-Samad Charles",
+        live: "https://gofigure-b695c.web.app/",
+        github: "https://github.com/DanielJamesF/GoFigure.git"
+      },
+      {
+        id: 8,
+        title: "Capstone",
+        image: "https://i.postimg.cc/nz0KZGN5/Screenshot-2022-09-15-090242.png",
+        desc: "This is an e-commerce website built that I built",
+        live: "https://capstonefinal-b4977.web.app",
+        github: "https://github.com/DanielJamesF/capstonefront"
       }
     ]
   },
